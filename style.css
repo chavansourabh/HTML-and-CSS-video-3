@@ -1,0 +1,47 @@
+*{
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+ font-size: 62.5%;
+}
+div {
+ font-size: 2rem;
+  background-color: #152278;
+  color: white;
+  width: 100%;
+  padding:10px;
+  margin-top: 20px;
+}
+
+.button{
+ 
+ margin: 10rem;
+ padding: 2rem 4rem;
+ background: none;
+ border: .2em solid rgb(85, 67, 199);
+ color: white;
+ font-size: 2.4rem;
+ border-radius: 3rem 0rem;
+ cursor: pointer;
+ background-color: rgb(88, 72, 187);
+ box-shadow: rgb(79, 67, 161) 5px 3px 10px ,
+ rgb(146, 132, 241) -6px -7px 15px;
+ text-shadow:rgb(27, 19, 80) 5px 3px 5px , rgb(213, 209, 238) -6px -5px 15px ;
+}
+.button-bg{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  background-color: rgb(118, 102, 223);
+}
+a{
+  font-size: 8rem;
+  background-color:cornflowerblue ;
+  color: whitesmoke;
+  /* padding: 5rem ; */
+  width: 5rem;
+  height: 10rem;
+  margin: 1rem;
+}
